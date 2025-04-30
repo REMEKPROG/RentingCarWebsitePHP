@@ -1,0 +1,119 @@
+.form-reservation-display{
+    position: relative;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-reservation-container{
+    position: relative;
+    padding: 15px;
+    background-color: powderblue;
+    border-radius: 15px;
+}
+
+.form-reservation-container form{
+    position: relative;
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.form-reservation-container label{
+    margin: 10px;
+    color: rgb(20,61,91);
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    user-select: none;
+}
+
+.form-reservation-container input{
+    background-color: powderblue;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 8px;
+    font-size: 90%;
+    font-family: "Poppins", sans-serif;
+    color:  rgb(20,61,91);
+}
+.form-reservation-container h2{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    text-decoration: underline;
+    color: red;
+    font-size: 120%;
+}
+
+.form-reservation-container .client-section{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid powderblue;
+    border-radius: 15px;
+}
+
+.client-section .name-surname-labels input{
+    margin: 10px;
+}
+
+.client-section .mail-phone-labels input{
+    margin: 10px;
+}
+
+
+.car-section{
+    position: relative;
+    margin-top: 15px;
+    padding: 15px;
+    border: 3px solid powderblue;
+    border-radius: 15px;
+    display: flex;
+}
+
+.car-section .car-img img{
+    width: 400px;
+    min-height: 300px;
+    max-height: 350px;
+    border-radius: 10px;
+}
+
+.car-properties-form label{
+    margin: 10px;
+}
+.car-properties-form input{
+    margin: 10px;
+}
+
+.car-properties-form select{
+    background-color: powderblue;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 8px;
+    font-size: 90%;
+    font-family: "Poppins", sans-serif;
+    color:  rgb(20,61,91);
+}
+
+.form-reservation-container .reservation-button{
+    position: relative;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: powderblue;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.form-reservation-container .reservation-button:hover{
+    background-color: skyblue;
+}

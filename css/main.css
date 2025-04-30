@@ -1,0 +1,181 @@
+@import url(../css/wypozycz.css);
+@import url(../css/rezerwacja.css);
+@import url(../css/dataClient.css);
+@import url(../css/zwrot.css);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color:  skyblue;
+    /* height: 100vh; */
+    opacity: 0;
+    transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+nav ul{
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    list-style-type: none;
+    background-color: powderblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.startweb{
+    margin-right: 100px;
+}
+
+nav ul li{
+    transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+nav ul li img{
+    width: 75px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+nav ul li:hover{
+    transform: scale(1.15);
+}
+
+nav ul li:first-child{
+    animation: sizing 2s infinite alternate;
+}
+
+@keyframes sizing{
+    0% {transform: scale(1);}
+    100% {transform: scale(1.15);}
+    
+}
+nav ul li:first-child:hover{
+    transform: scale(1.20);
+}
+
+nav ul li:hover a{
+    color: rgba(81, 71, 71, 0.8);
+}
+
+
+
+header .header-hero-image{
+    position: relative;
+    background-image: url(../img/wypozyczalnia-hero-img.jpg);
+    background-size: cover;
+    height: 100vh;
+    z-index: -10;
+    background-position: 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header .header-inside-text{
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+
+header .header-inside-text h1{
+    font-size: 180%;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+header .header-hero-image-background{
+    position: absolute;
+    /* z-index: -1; */
+    height: 100%;
+    width: 100%;
+    background-color: rgba(13, 19, 70, 0.4);
+}
+.cars-list-display{
+    display: flex;
+    justify-content: center;
+}
+
+.index-main-section h1{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.cars-list-display img{
+    position: relative;
+    margin-top: 30px;
+    padding: 10px;
+    width: 400px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.car-top-container{
+    position: relative;
+    background-color: powderblue;
+    border: 3px solid rgba(13, 19, 70, 0.4);
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+
+.cars-list-display h3{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: powderblue; 
+}
+
+footer .text-footer{
+    text-align: center;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 65%;
+}
+
+footer .footer-links-icons{
+    font-size: 200%;
+    text-decoration: none;
+}
+
+.footer-links-icons i:hover{
+    color: greenyellow;
+}
+
+
+
+
+
+
+

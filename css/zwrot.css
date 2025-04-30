@@ -1,0 +1,102 @@
+.zwrot-main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rents-Container-display{
+    position: relative;
+    width: 100%;
+    background-color: powderblue;
+    padding: 15px;
+    border-radius: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.client-rent-form label{
+    margin: 10px;
+    color: rgb(20,61,91);
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    user-select: none;
+}
+
+.client-rent-form h3{
+    color: red;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 110%;
+    text-transform: uppercase;
+}
+
+.client-rent-form form{
+    position: relative;
+    padding: 10px;
+    background-color: skyblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.client-rent-form input{
+    background-color: powderblue;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    /* margin-top: 5px; */
+    font-size: 90%;
+    font-family: "Poppins", sans-serif;
+    color:  rgb(20,61,91);
+}
+
+.rents-description-container{
+    position: relative;
+    border-radius: 10px;
+    margin-top: 12.5px;
+    padding: 5px;
+    background-color: skyblue;
+}
+
+.client-rent-data{
+    position: relative;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: powderblue;
+    border: 2px solid rgb(20,61,91);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-rent-data p{
+    font-family: "Poppins", sans-serif;
+    font-size: 120%;
+    margin: 5px;
+    user-select: none;
+}
+
+.client-rent-form form .submit-button, .client-rent-data form .submit-button{
+    position: relative;
+    width: 50%;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    background-color: powderblue;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.client-rent-form form .submit-button:hover{
+    background-color: skyblue;
+}

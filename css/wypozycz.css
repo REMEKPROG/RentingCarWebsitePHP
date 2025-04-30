@@ -1,0 +1,216 @@
+.display-section{
+    position: relative;
+    background-color: powderblue;
+    width: 75%;
+    margin: 10%;
+    display: flex;
+}
+
+.center-section{
+    position: relative;
+}
+
+.form-choice-section{
+    position: relative;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.form-choice-section form{
+    position: relative;
+    padding: 10px;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+.form-choice-section form label{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color:  rgb(20,61,91);
+    user-select: none;
+}
+
+.form-choice-section form .submit-button{
+    position: relative;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: powderblue;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.form-choice-section form .submit-button:hover{
+    background-color: skyblue;
+}
+.car-offers-container img{
+    width: 400px;
+    min-height: 300px;
+    max-height: 350px;
+    border-radius: 10px;
+}
+
+.car-offers-container{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: skyblue;
+    display: flex;
+}
+
+.car-offers-text{
+    position: relative;
+    /* padding: 15px; */
+    margin: 30px; 
+}
+
+.car-offers-text h3{
+    font-size: 120%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    color:  rgb(20,61,91);
+}
+
+.car-offers-text p{
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    color:  rgb(20,61,91);
+}
+
+.car-offers-text button{
+    background-color: rgb(20,61,91);
+    margin-top: 10px;
+    padding: 7.5px 15px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
+                transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.car-offers-text button:hover{
+    background-color: rgba(20,61,91, 0.7);
+    transform: scale(1.1);
+}
+
+.description-cars{
+    position: relative;
+    max-height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    margin-top: 8px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: rgba(176, 224, 230, 0.3);
+    transition: max-height 1s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                opacity 1.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.description-cars p{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+
+.description-cars-show-text{
+    opacity: 1;
+}
+
+.form-requirements{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px powderblue;
+}
+
+.form-requirements label{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color:  rgb(20,61,91);
+    user-select: none;
+}
+
+.form-requirements .brand-label{
+    font-size: 120%;
+}
+
+
+form .form-category-chooser{
+    position: relative;
+    background-color: powderblue;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px powderblue;
+}
+
+form .form-category-chooser select{
+    background-color: skyblue;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 8px;
+    font-size: 90%;
+    font-family: "Poppins", sans-serif;
+    color:  rgb(20,61,91);
+}
+
+form .brands-form-container{
+    position: relative;
+    margin-bottom: 7px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: powderblue;
+}
+
+form .years-price-form-container{
+    position: relative;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: powderblue;
+}
+
+form .years-price-form-container .year-label{
+    font-size: 90%;
+}
+
+form .years-price-form-container input{
+    background-color: skyblue;
+    border: none;
+    border-radius: 10px;
+    font-size: 90%;
+    font-family: "Poppins", sans-serif;
+    color:  rgb(20,61,91);
+}
+
+
+
+
+
+
+
+
